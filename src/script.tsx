@@ -8,7 +8,7 @@ const AnotherBySideScript = () => {
         <script>
           {`var bysideWebcare_webcare_id="7B0E5D0519",bysideWebcare_lang="pt",bysideWebcare_channel="kiavibe"`}
         </script>
-        <script src="/byside.js" async></script>
+        <script type="text/javascript" src="/byside.js" async></script>
       </Helmet>
     </>
   );
