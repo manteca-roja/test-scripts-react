@@ -22,7 +22,7 @@ const BySideScript = () => {
       // Load external script after the inline script
       const externalScript = document.createElement("script");
       externalScript.type = "text/javascript";
-      externalScript.src = "https://bywe2.byside.com/agent/bwc_we2.js";
+      externalScript.src = "/byside.js";
 
       externalScript.async = true;
       externalScript.nonce = "MTo3NzMwMToyOTM1MDE0NTU1OjE3MDEwNzI4ODU="; // Adding nonce value
